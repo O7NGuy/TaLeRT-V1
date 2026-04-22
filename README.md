@@ -1,6 +1,6 @@
 # TaLeRT-V1
 
-**Android job alert bot — automating the least desirable human task.**
+**Desktop job alert bot — automating the least desirable human task.**
 
 **Current status:** 🚧 **Planning phase** — some code written yet. This README is a project blueprint.
 
