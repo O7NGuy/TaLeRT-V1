@@ -18,7 +18,7 @@ Manual job board checks are repetitive and time-consuming for me and i have to b
 - [x] Project named (TaLeRT-V1)
 - [x] GitHub repository created
 - [x] README written (this document)
-- [ ] First line of code written
+- [x] First line of code written
 - [ ] Basic scraping prototype
 - [ ] Working notification system
 - [ ] Release-ready app
