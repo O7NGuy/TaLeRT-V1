@@ -138,4 +138,4 @@ MIT License — see [LICENSE](LICENSE) file in the repository.
 
 ## Acknowledgements
 
-Planned as part of my IT portfolio. The repository currently contains only this README and a license file. Code development will begin once Android Studio is installed.
+Planned as part of my IT portfolio. The repository currently contains only this README and a license file.
