@@ -2,7 +2,7 @@
 
 **Android job alert bot — automating the least desirable human task.**
 
-**Current status:** 🚧 **Planning phase** — no code written yet. This README is a project blueprint.
+**Current status:** 🚧 **Planning phase** — some code written yet. This README is a project blueprint.
 
 ---
 
@@ -92,7 +92,7 @@ Visual Studio Code Latest Release
 
 ---
 
-## Why Kotlin + Jsoup (Not Pure Kotlin Alone) (Ignotre for now)
+## Why Kotlin + Jsoup (Not Pure Kotlin Alone) (Ignore for now)
 
 | Approach | Pros | Cons |
 |----------|------|------|
