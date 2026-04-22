@@ -105,10 +105,9 @@ For 5+ parsing functions, Jsoup will significantly reduce code complexity and bu
 
 ## Future Plans
 
-- Add support for Indeed, CWJobs, and GOV.UK
+- Add support for Mandarin and custom URL suggestions
 - Allow custom search keywords (e.g., "Rust apprentice", "embedded trainee")
 - Export job list to CSV for tracking applications
-- Publish to Google Play Store (if feasible)
 
 ---
 
