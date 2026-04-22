@@ -2,23 +2,22 @@
 
 **Android job alert bot — automating the least desirable human task.**
 
-**Current status:** 🚧 **Planning phase** — no code written yet. Android Studio not installed. This README is a project blueprint.
+**Current status:** 🚧 **Planning phase** — no code written yet. This README is a project blueprint.
 
 ---
 
 ## Overview
 
-TaLeRT-V1 will be an Android application that periodically scrapes public job boards for IT apprenticeship roles. When a new, relevant role is found, the app will send a push notification to your phone.
+TaLeRT-V1 will be an desktop application that periodically scrapes public job boards for IT apprenticeship roles. When a new, relevant role is found, the application will send a notification to your local desktop.
 
 **Why this project exists:**  
-Manual job board checks are repetitive and time-consuming. This app will automate that process so users can focus on building portfolios and preparing for interviews.
+Manual job board checks are repetitive and time-consuming for me and i have to balance work on the portfolio with GCSE's and Mandarin practice. This app will automate these processes so users can focus on building portfolios and preparing for interviews.
 
 **Current progress:**  
 - [x] Idea conceived
 - [x] Project named (TaLeRT-V1)
 - [x] GitHub repository created
 - [x] README written (this document)
-- [ ] Android Studio installed
 - [ ] First line of code written
 - [ ] Basic scraping prototype
 - [ ] Working notification system
@@ -30,17 +29,17 @@ Manual job board checks are repetitive and time-consuming. This app will automat
 
 | Component | Planned Technology | Purpose |
 |-----------|-------------------|---------|
-| Language | Kotlin | Modern Android development |
-| HTML parsing | Jsoup | Web scraping (no API required) |
-| Scheduling | WorkManager | Background job scheduling (2x daily) |
-| Notifications | NotificationManager | Push alerts to your phone |
-| Caching | SharedPreferences / SQLite | Store seen job IDs to avoid duplicate alerts |
+| Language | Python | Windows 11 |
+| HTML parsing | beautifulsoup | Web scraping (no API required) |
+| Scheduling | Python Import (not yet specified) | Background job scheduling (2x daily) |
+| Notifications | NotificationManager |
+| Caching | SQLite | Store seen job IDs to avoid duplicate alerts |
 
-**No external APIs.** Everything will be handled locally within the app using Kotlin and Jsoup.
+**No external APIs.** Everything will be handled locally within the app using python and SQlite.
 
 ---
 
-## How It Will Work (Design)
+## How It Will Work (Design) (ignore the current list as its not updated yet to match the new Project environment but it is generally correct in function not theory or practice)
 
 1. **Schedule** — `WorkManager` will trigger the job check at user-defined intervals.
 2. **Fetch** — Jsoup will connect to search results URLs (e.g., Reed.co.uk, GOV.UK) and download HTML.
@@ -79,22 +78,21 @@ Jsoup is the standard Java/Kotlin library for scraping. It handles malformed HTM
 ## Setup & Build Instructions (When Ready)
 
 ### Prerequisites
-- Android Studio (latest version) — not yet installed
-- Android device or emulator (API level 24+)
+Visual Studio Code Latest Release
 
-### Steps (To Be Completed)
+### Steps (To Be Completed) (Ignore this has not been updated yet)
 1. Install Android Studio
 2. Clone the repository
 3. Open the project
 4. Build and run
 
-### Permissions Required (To Be Implemented)
+### Permissions Required (To Be Implemented) (This has not been updated yet ie changing the environment from android to windows but the requirements are pretty much the same but worded differently)
 - `INTERNET` — for web scraping (Jsoup)
 - `POST_NOTIFICATIONS` (Android 13+) — for alerts
 
 ---
 
-## Why Kotlin + Jsoup (Not Pure Kotlin Alone)
+## Why Kotlin + Jsoup (Not Pure Kotlin Alone) (Ignotre for now)
 
 | Approach | Pros | Cons |
 |----------|------|------|
