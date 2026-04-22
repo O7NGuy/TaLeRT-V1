@@ -118,6 +118,16 @@ MIT License — see [LICENSE](LICENSE) file in the repository.
 
 ---
 
+## Current Project Screenshots
+
+### Screenshot 1 22/04/26 ###
+<img width="1919" height="1079" alt="Screenshot 2026-04-22 170917" src="https://github.com/user-attachments/assets/4a978a4c-e87a-400b-a35f-6fa5eddf4000" />
+
+*Here you can see Visual Studio Code my prefered code editor on the left and on the right you can see the DataBase (DB) backend what is currently visualised with tkinter but later on ie Pre Release and Full Release V1 it will be hidden to the user and replaced by the Job List and their descriptions plus the scrap parameter filter tab, it will also be modern tkinter instead of this older looking version.*
+
+### Screenshot 1 END ###
+
+
 ## Contact
 
 **Justin Wiltshire (O7NGuy)**  
